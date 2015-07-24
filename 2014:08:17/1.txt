@@ -1,0 +1,7 @@
+1. Tuple（多元组）
+普通程序员：
+func swapMe<T>(inout a: T, inout b: T) {
+    let temp = a
+    a = b
+    b = temp
+}
