@@ -5,3 +5,8 @@ func swapMe<T>(inout a: T, inout b: T) {
     a = b
     b = temp
 }
+文艺程序员:
+func swapMe<T>(inout a: T, inout b: T) {
+    (a,b) = (b,a)
+}
+2.
